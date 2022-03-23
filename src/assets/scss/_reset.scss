@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url('../fonts/HelveticaNeue.eot');
+  src: url('../fonts/HelveticaNeue.eot?#iefix') format('embedded-opentype'),
+  url("../fonts/HelveticaNeue.woff2") format("woff2"),
+  url("../fonts/HelveticaNeue.woff") format("woff"),
+  url("../fonts/HelveticaNeue.ttf") format("truetype"),
+  url("../fonts/HelveticaNeue.svg#HelveticaNeue") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.25;
+  color: #222;
+  text-align: left;
+  background-color: #fff;
+  letter-spacing: 0.2px;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: $colorLink;
+  transition: all 0.35s;
+
+  &:hover {
+    color: $colorBlue;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+button,
+textarea ,
+input{
+  font-size: 14px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+input::placeholder {
+  font-size: 14px ;
+  font-family: "Helvetica Neue", Arial, sans-serif ;
+}
+
+textarea::placeholder {
+  font-size: 14px ;
+  font-family: "Helvetica Neue", Arial, sans-serif ;
+}
+
+main{
+  min-height: 100vh;
+  overflow: hidden;
+}

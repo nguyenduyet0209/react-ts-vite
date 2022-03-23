@@ -1,0 +1,20 @@
+@use 'sass:math';
+
+// ========== GRID ==========
+$base_grid: math.div(1, 12)*100%;
+
+// Color
+$colorPrimary: #f59330;
+$colorBlue: #0045ff;
+$colorInfo: #00a5de;
+$colorDarkBlue: #052478;
+$colorGray: #f1f8fb;
+$colorLink: #00274e;
+$colorDanger: #dd1c1c;
+
+// Col Flex
+$ColMD: col-md !default;
+$ColMM: col-mm !default;
+$ColMT: col-mt !default;
+$ColMI: col-mi !default;
+$ColOffset: col-offset !default;
